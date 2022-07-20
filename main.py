@@ -10,6 +10,18 @@ d = {
     "DOB":"24081994"
 }
 
+d = {
+    "name":"Srinivas",
+    "lastname":"Nandikanti",
+    "DOB":"24081994"
+}
+
+d = {
+    "name":"Srinivas",
+    "lastname":"Nandikanti",
+    "DOB":"24081994"
+}
+
 db1 = client["mongotest"]
 coll = db1['test']
 coll.insert_one(d)
